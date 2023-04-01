@@ -1,0 +1,185 @@
+.wrapper{
+    padding: 0;
+    margin: 0;
+}
+#back{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 7.5%;
+    left: 7.5%;
+    z-index: 1;
+}
+
+#back a{
+    opacity: 50%;
+}
+
+#back a:hover{
+    opacity: 100%;
+}
+
+#Q{
+    font-size: 20rem;
+    font-family: paganini, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ea5e96;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 65%;
+    z-index: 1;
+    opacity: 50%;
+}
+
+#A{
+    font-size: 20rem;
+    font-family: paganini, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #ea5e96;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    z-index: 1;
+    opacity: 50%;
+}
+
+
+
+.question{
+    width: 80%;
+    height: 25%;
+    font-size: 2.5rem;
+    font-family: Hiragino Mincho ProN W6, serif;
+    font-style: normal;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.answear{
+    width: 60%;
+    font-size: 1.2rem;
+    font-family: Hiragino Mincho ProN W3, serif;
+    font-style: normal;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: 0;
+    padding: 0 0 5% 0;
+}
+
+
+
+
+
+
+
+.fadeUp{
+    animation-name:fadeUpAnime;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeUpAnime{
+      from {
+        opacity: 0;
+      transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+      transform: translateY(0);
+      }
+    }
+    
+    
+    /*スクロールをしたら出現する要素にはじめに透過0を指定*/
+     
+    .fadeUpTrigger{
+        opacity: 0;
+    }
+
+
+@media screen and (max-width: 780px) {
+
+    #Q{
+        font-size: 20rem;
+        font-family: paganini, serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #ea5e96;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        left: 55%;
+        z-index: 1;
+        opacity: 50%;
+    }
+    
+    #A{
+        font-size: 20rem;
+        font-family: paganini, serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #ea5e96;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 35%;
+        left: -10%;
+        z-index: 1;
+        opacity: 50%;
+    }
+
+
+    .detail_contents {
+        display: block;
+        }
+        
+    .question {
+        width: 80%;
+        font-size: 2.5rem;
+        font-family: Hiragino Mincho ProN W6, serif;
+        font-style: normal;
+        text-align: left;
+        position: relative;
+        top: 50%;
+        left: 0%;
+        z-index: 2;
+        margin: 10%;
+        padding-top: 15%;
+    }
+    .answear { 
+        width: 80%;
+        font-size: 1.2rem;
+        font-family: Hiragino Mincho ProN W3, serif;
+        font-style: normal;
+        text-align: left;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        margin: 0 10%;
+        padding-top: 10%;
+        z-index: 2;
+    }
+
+
+
+
+    
+}
+
