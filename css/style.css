@@ -148,9 +148,8 @@ body{
         grid-area: 4 / 4 / 5 / 5;
         margin-right: 40%;
       }
-      .div13 { grid-area: 5 / 1 / 6 / 2; }
-      .div14 { grid-area: 5 / 2 / 6 / 3; }
-      .div15 { grid-area: 5 / 3 / 6 / 4; }
+
+
       /*予備
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -159,7 +158,9 @@ body{
       grid-row-gap: 0px;
       width: 100%;
       padding-top: 7.5%;
-
+      .div13 { grid-area: 5 / 1 / 6 / 2; }
+      .div14 { grid-area: 5 / 2 / 6 / 3; }
+      .div15 { grid-area: 5 / 3 / 6 / 4; }
       .div16 { grid-area: 5 / 4 / 6 / 5; }
       .div17 { grid-area: 6 / 1 / 7 / 2; }
       .div18 { grid-area: 6 / 2 / 7 / 3; }
